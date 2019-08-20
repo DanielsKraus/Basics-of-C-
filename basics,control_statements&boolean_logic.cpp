@@ -13,6 +13,9 @@ int main() {
     else if(var == 0){
         cout << "It's zero!" << endl;
     }
+    else if(var > 0){
+    	cout << "It's greater than zero!" << endl;
+    }
     else{
         cout << "It's a negative!" << endl;
     }
