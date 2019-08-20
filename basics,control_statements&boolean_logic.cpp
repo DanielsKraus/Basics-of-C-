@@ -5,13 +5,13 @@ using namespace std;
 
 int main() {
     
-    int var = 1;
+    int var = 0;
     
-    if(var < 1){
-        cout << "less than one!" << endl;
+    if(var < 0){
+        cout << "less than zero!" << endl;
     }
-    else if(var == 1){
-        cout << "One exactly!" << endl;
+    else if(var == 0){
+        cout << "It's zero!" << endl;
     }
     else{
         cout << "It's a negative!" << endl;
